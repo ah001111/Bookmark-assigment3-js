@@ -1,0 +1,91 @@
+body {
+    background-color: #f7ecde;
+}
+
+.site {
+    width: 85%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    width: 23.7%;
+    height: 17%;
+    left: 50;
+    bottom: 50px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+    
+}
+
+ h1:hover::before {
+    height: 34%;
+  
+}
+
+
+h2 {
+    font-size: 25px;
+    margin-top: 25px;
+    /* padding-top: -0.4rem; */
+    font-family: 'Righteous', sans-serif;
+    background: linear-gradient(90deg, rgba(46, 187, 23, 0.9836309523809523) 43%, rgba(245, 137, 4, 1) 73%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+button {
+    position: relative;
+    left: 50%;
+    margin-top: 0.625rem;
+}
+
+/* 
+.demo::before {
+    content: " ";
+    width: 83.5%;
+    height: 22.5rem;
+    position: absolute;
+    top: 8.7rem;
+    left: 7.1rem;
+    border-width: 0.125rem 0px 0.125rem 0px;
+    border-style: dotted;
+    border-color: black;
+    z-index: -5;
+} */
+
+
+.demo {
+    /* content: " ";
+    width: 83.5%;
+    height: 22.5rem;
+    position: absolute;
+    top: 8.7rem;
+    left: 7.1rem; */
+    border-width: 0.125rem 0px 0.125rem 0px;
+    border-style: dotted;
+    border-color: black;
+    z-index: -5;
+}
+
+.lasboot {
+    position: relative;
+    left: 3px;
+    top: -6px;
+}
+
+
+.lasboot2 {
+    position: relative;
+    left: 3px;
+    top: -6px;
+}
